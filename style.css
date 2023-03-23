@@ -329,3 +329,141 @@ a{
     padding: 5px 0px;
     font-size: 12px;
 }
+/* Sreylis */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.content{
+    /* background-color: rgb(202, 52, 77); */
+    display: flex;
+    justify-content: start;
+    background-color: rgb(230, 237, 245);
+}
+.detail-right{
+    width: 80%;
+    /* background-color: blue; */
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.detail-left{
+    width: 30%;
+    /* background-color: red; */
+}
+.detail-right-video{
+    padding-left: 30px;
+}
+.detail-right-title{
+    color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.detail-right-p{
+    color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.detail-right-info{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.user{
+    display: flex;
+}
+.user-profile{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.comment{
+    height: 30px;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+    color: rgb(182, 179, 179);
+}
+.user-profile1{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(15, 172, 25);
+    
+}
+.user-profile2{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(22, 64, 251);
+    
+}
+.user-profile3{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    
+}
+.comment1{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.detail-left{
+    margin-top: 30px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.detail-left-inner{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    height: 100px;
+    margin-top: 15px;
+    background-color: rgb(170, 168, 168);
+}
+.detail-left-inner-img{
+    width: 160px;
+    height: 100%;
+    padding: 5px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.inner-title{
+    font-size: 13px;
+    padding: 5px;
+}
+.inner-title-info{
+    padding-left: 5px;
+    margin-bottom: 5px;
+    color: gray;
+    font-size: 12px;
+}
+.inner-title-name{
+    padding-left: 5px;
+    font-size: 13px;
+}
